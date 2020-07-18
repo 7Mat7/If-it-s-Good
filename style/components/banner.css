@@ -1,0 +1,15 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  padding-bottom: 32px;
+  padding-top: 8px;
+}
+
+.banner-first ul li {
+  display: inline;
+}
+
+.banner-second ul li {
+  display: inline;
+}
