@@ -1,0 +1,53 @@
+.logo p {
+  margin: 0 !important;
+  line-height: 1em;
+  font-size: 24px;
+}
+
+#banner > .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.welcome {
+  height: 100vh;
+  position: relative;
+}
+
+.big {
+  width: max-content;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: 35%;
+  border-radius: 50%;
+  background: radial-gradient(rgba(245, 219, 86, 0.8) 14%, #F5F5F5 41%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.big p {
+  font-size: 64px;
+}
+
+.top-btn {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1000;
+  position: relative;
+  top: 50%;
+}
+
+.hidden {
+  display: hidden;
+}
+
+#first {
+  scroll-snap-align: start;
+}

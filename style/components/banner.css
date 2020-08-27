@@ -1,15 +1,35 @@
-.banner {
+#banner {
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px solid black;
-  padding-bottom: 32px;
   padding-top: 8px;
+  padding-bottom: 24px;
+  background: linear-gradient(rgba(245, 219, 86, 0.5) 65%, #F5F5F5);
+  scroll-snap-align: start;
+  position: relative;
 }
 
-.banner-first ul li {
+.banner-first ul li, .banner-second ul li {
   display: inline;
+  padding: 0 24px;
 }
 
-.banner-second ul li {
-  display: inline;
+.banner-first ul li:first-child {
+  padding:0;
+}
+
+.banner-second ul li:last-child {
+  margin-right: 12px;
+}
+
+.summary {
+  border: none !important;
+  padding-left: 0 !important;
+  text-decoration: none;
+  color: black;
+  display: contents;
+}
+
+.top-enter a {
+  text-decoration: none;
+  color: black;
 }

@@ -1,0 +1,9 @@
+#a-propos {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#a-propos p {
+  width: 75%;
+  font-size: 32px;
+}

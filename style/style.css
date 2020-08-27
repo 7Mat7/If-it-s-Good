@@ -1,1 +1,51 @@
-@import url("components/banner.css")
+@import url("components/banner.css");
+@import url("components/apropos.css");
+@import url("components/axes.css");
+@import url("components/hidden-stuff.css");
+@import url("components/images.css");
+@import url("components/contact.css");
+@import url("components/footer.css");
+@import url("components/button.css");
+@import url("components/logo.css");
+
+
+@font-face {
+    font-family: 'orticalight';
+    src: url('../ortica_site/ortica-light-webfont.woff2') format('woff2'),
+         url('../ortica_site/ortica-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'orticabold';
+    src: url('../ortica_site/ortica-bold-webfont.woff2') format('woff2'),
+         url('../ortica_site/ortica-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+  background-color: rgb(245 245 245);
+  font-family: 'orticalight';
+  margin: 0;
+}
+
+.holster {
+  scroll-snap-type: y proximity;
+  height: 100vh;
+  overflow: scroll;
+  scroll-behavior: smooth;
+
+}
+
+body p {
+  line-height: 1.5em;
+}
+
+h1, h4 {
+  font-weight: lighter;
+}

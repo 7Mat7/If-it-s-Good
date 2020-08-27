@@ -1,0 +1,36 @@
+.footer {
+  background-color: rgba(245, 219, 86, 0.5);
+  scroll-snap-align: end;
+}
+
+.footer p {
+  margin-top: 0;
+}
+
+.top {
+  text-align: -moz-center;
+  margin-bottom: 10vh;
+  z-index: 1000;
+  position: relative;
+}
+
+.bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 12px;
+}
+
+.first {
+  display: flex;
+}
+
+.top a {
+  text-decoration: none;
+  color: black;
+  margin-top: 0 !important;
+}
+
+.mail {
+  line-height: 60vh;
+}
+
