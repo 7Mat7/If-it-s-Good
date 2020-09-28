@@ -12,9 +12,7 @@
 .mail h1{
   line-height: 20vh;
   color: black;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: 50%;
+  margin-left: 25%;
 }
 
 .mail a:hover {
@@ -26,7 +24,7 @@
 }
 
 #contact .title p {
-  line-height: 20vh !important;
+  line-height: 20vh;
 }
 
 @media (max-width: 768px) {
@@ -36,5 +34,6 @@
 
   .mail h1 {
     line-height: 0;
+    font-size: 4vw;
   }
 }

@@ -1,6 +1,5 @@
 .axes {
   display: flex;
-  scroll-snap-align: none;
 }
 
 .row {
@@ -8,10 +7,8 @@
 }
 
 .title {
-  width: max-content;
   font-size: 12px;
   border-right: 1px solid rgb(115, 115, 115);
-  flex-shrink: 0;
   font-family: 'Helvetica';
 }
 
@@ -21,14 +18,7 @@
   }
 }
 
-.title p, h4 {
-  display: contents;
-}
-
 .content {
-  width: 50%;
-  position: relative;
-  max-height: fit-content;
   padding-left: 0 !important;
 }
 
@@ -40,29 +30,6 @@
 .program:hover .image {
   visibility: visible;
   opacity: 0.1;
-}
-
-.content-holder {
-  width: 82%;
-  padding-left: 27px !important;
-}
-
-
-.sub-content {
-  display: flex;
-  width: 100%;
-}
-
-.right-side {
-  width: 50%;
-  padding-left: 12px;
-  padding-right: 56px;
-  position: relative;
-}
-
-.right-side p {
-  margin-top: 0;
-  width: 100% !important;
 }
 
 .section {
