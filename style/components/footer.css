@@ -1,14 +1,16 @@
 .footer {
-  background-color: rgba(245, 219, 86, 0.5);
-  scroll-snap-align: end;
+  background-color: #F6E075;
 }
 
 .footer p {
   margin-top: 0;
 }
 
+.foot {
+  display: contents;
+}
+
 .top {
-  text-align: -moz-center;
   margin-bottom: 10vh;
   z-index: 1000;
   position: relative;
@@ -20,14 +22,10 @@
   margin: 0 12px;
 }
 
-.first {
-  display: flex;
-}
-
 .top a {
   text-decoration: none;
   color: black;
-  margin-top: 0 !important;
+  margin: 0 auto;
 }
 
 .mail {

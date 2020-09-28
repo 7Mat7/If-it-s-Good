@@ -1,4 +1,4 @@
-@import url("components/banner.css");
+
 @import url("components/apropos.css");
 @import url("components/axes.css");
 @import url("components/hidden-stuff.css");
@@ -7,6 +7,8 @@
 @import url("components/footer.css");
 @import url("components/button.css");
 @import url("components/logo.css");
+@import url("components/banner.css");
+@import url("components/divider.css");
 
 
 @font-face {
@@ -24,22 +26,19 @@
          url('../ortica_site/ortica-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
-
 body {
-  background-color: rgb(245 245 245);
-  font-family: 'orticalight';
-  margin: 0;
+  background-color: rgb(248 248 248) !important;
+  font-family: 'orticalight' !important;
+  margin: 0 !important;
 }
 
 .holster {
   scroll-snap-type: y proximity;
-  height: 100vh;
+  /*height: 100vh;*/
   overflow: scroll;
   scroll-behavior: smooth;
-
 }
 
 body p {

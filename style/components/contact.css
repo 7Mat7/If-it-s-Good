@@ -1,22 +1,24 @@
 #contact {
   display: flex;
-  height:50vh;
-
-  background: linear-gradient(#F5F5F5,rgba(245, 219, 86, 0.5));
+  height:24vh;
+  background: linear-gradient(rgb(248, 248, 248),#F6E075 104%);
   position: relative;
 }
 
 .mail {
   width: 100%;
-  text-align: center;
-  position: absolute;
 }
 
 .mail h1{
-  font-weight: normal;
-  font-size: 48px;
-  padding-left: 12px;
-  line-height: 60vh;
+  line-height: 20vh;
+  color: black;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: 50%;
+}
+
+.mail a:hover {
+  text-decoration: none;
 }
 
 #contact .title {
@@ -24,5 +26,15 @@
 }
 
 #contact .title p {
-  line-height: 66vh !important;
+  line-height: 20vh !important;
+}
+
+@media (max-width: 768px) {
+  #contact .title p {
+    line-height: 12vh !important;
+  }
+
+  .mail h1 {
+    line-height: 0;
+  }
 }

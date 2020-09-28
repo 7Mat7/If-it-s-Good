@@ -3,33 +3,69 @@
   justify-content: space-between;
   padding-top: 8px;
   padding-bottom: 24px;
-  background: linear-gradient(rgba(245, 219, 86, 0.5) 65%, #F5F5F5);
   scroll-snap-align: start;
   position: relative;
+  background-color: rgba(246, 224, 117, 0.2) !important;
 }
 
-.banner-first ul li, .banner-second ul li {
-  display: inline;
+.color {
+  background: linear-gradient(#F6E075 25%, rgb(248 248 248)97%);
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  top: 0;
+  z-index: -1;
+}
+
+.banner-first li, .banner-second li {
   padding: 0 24px;
 }
 
-.banner-first ul li:first-child {
-  padding:0;
+.banner-first li:first-child, .banner-second li:first-child {
+  padding-left: 0;
 }
 
-.banner-second ul li:last-child {
-  margin-right: 12px;
+.banner-second li:last-child {
+  padding-right: 0;
+}
+
+.banner-first, .banner-second {
+  display: inline-flex;
+  padding: 0 24px;
+}
+
+.banner-second {
+  position: absolute;
+  right: 16;
+}
+
+@media (max-width: 992px) {
+  .banner-first, .banner-second {
+  display: contents;
+ }
 }
 
 .summary {
   border: none !important;
-  padding-left: 0 !important;
   text-decoration: none;
   color: black;
-  display: contents;
 }
 
 .top-enter a {
   text-decoration: none;
   color: black;
 }
+
+.navbar {
+    margin-bottom: 0 !important;
+    background-color: white;
+}
+
+.nav-link {
+  color: #2B4162!important;
+}
+
+.nav-link:hover {
+  color: rgba(0,0,0,.5)!important;
+}
+
