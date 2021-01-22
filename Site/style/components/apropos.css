@@ -1,0 +1,19 @@
+.a-propos {
+  padding: 0 40px;
+  margin-top: 24px;
+}
+
+@media (max-width: 768px) {
+  .a-propos {
+    padding-left: 27px;
+  }
+
+  .a-propos p {
+    width: 100% !important;
+  }
+}
+
+.a-propos p {
+  width: 75%;
+  font-size: 32px;
+}

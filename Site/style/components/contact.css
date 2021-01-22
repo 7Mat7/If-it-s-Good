@@ -1,0 +1,43 @@
+#contact {
+  display: flex;
+  height:24vh;
+  background: linear-gradient(rgb(248, 248, 248),#F6E075 104%);
+  position: relative;
+}
+
+.mail {
+  width: 100%;
+  position: absolute;
+    left: 50%;
+    right: 50%;
+    width: max-content;
+    transform: translate(-50%);
+}
+
+.mail h1{
+  line-height: 20vh;
+  color: black;
+}
+
+.mail a:hover {
+  text-decoration: none;
+}
+
+#contact .title {
+  border-right: none;
+}
+
+#contact .title p {
+  line-height: 20vh;
+}
+
+@media (max-width: 768px) {
+  #contact .title p {
+    line-height: 12vh !important;
+  }
+
+  .mail h1 {
+    line-height: 20vh;
+    font-size: 6vw;
+  }
+}

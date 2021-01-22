@@ -1,0 +1,59 @@
+.button {
+  border: solid 1px black;
+  padding: 2px 8px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 40px 0;
+  display: block;
+  width: max-content;
+  font-family: 'Helvetica';
+  color: black;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/*#btn-hwa {
+  display: initial;
+  margin-bottom: 8px;
+}
+
+.side-arrow span:first-of-type {
+  top: 20%;
+  bottom: 18%;
+  width: 3%;
+  left: 49%;
+  rotate: 135deg;
+}
+
+.side-arrow span:nth-of-type(2) {
+  top: 25%;
+  bottom: 25%;
+  width: 3%;
+  left: 72%;
+  }
+
+.side-arrow  span:last-of-type {
+  left: 25%;
+  right: 25%;
+  height: 3%;
+  top: 72%;
+
+button.side-arrow {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2px;
+  cursor: pointer;
+
+.button-herweare {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  right:40%;
+  top: 50%;
+  display: none;
+
+*/
